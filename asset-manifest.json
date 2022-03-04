@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jamesnguyenn/tictactoe-deploy/static/css/main.7a6f1428.css",
+    "main.js": "/jamesnguyenn/tictactoe-deploy/static/js/main.57731d59.js",
+    "static/media/logo.png": "/jamesnguyenn/tictactoe-deploy/static/media/logo.690ca305e4ee9302946e.png",
+    "index.html": "/jamesnguyenn/tictactoe-deploy/index.html",
+    "main.7a6f1428.css.map": "/jamesnguyenn/tictactoe-deploy/static/css/main.7a6f1428.css.map",
+    "main.57731d59.js.map": "/jamesnguyenn/tictactoe-deploy/static/js/main.57731d59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a6f1428.css",
+    "static/js/main.57731d59.js"
+  ]
+}
