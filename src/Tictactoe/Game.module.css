@@ -1,0 +1,35 @@
+.game {
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+}
+.display-turn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 30px;
+  transform: translateY(-100%);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  animation: popUp 0.4s forwards 1 ease-in-out;
+  z-index: -100;
+}
+
+@keyframes popUp {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
